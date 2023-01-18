@@ -1,0 +1,29 @@
+2023-01-17T15:09:15.662+01:00  INFO 10604 --- [restartedMain] c.e.demo.CoursSpringDataRestApplication  : Starting CoursSpringDataRestApplication using Java 17.0.5 with PID 10604 (C:\Users\M2i\eclipse-workspace\cours-spring-data-rest\target\classes started by M2i in C:\Users\M2i\eclipse-workspace\cours-spring-data-rest)
+2023-01-17T15:09:15.663+01:00  INFO 10604 --- [restartedMain] c.e.demo.CoursSpringDataRestApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-01-17T15:09:15.687+01:00  INFO 10604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-17T15:09:15.689+01:00  INFO 10604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-17T15:09:15.990+01:00  INFO 10604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-17T15:09:16.016+01:00  INFO 10604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-01-17T15:09:16.327+01:00  INFO 10604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-01-17T15:09:16.339+01:00  INFO 10604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-17T15:09:16.339+01:00  INFO 10604 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-17T15:09:16.373+01:00  INFO 10604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ws]     : Initializing Spring embedded WebApplicationContext
+2023-01-17T15:09:16.373+01:00  INFO 10604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 684 ms
+2023-01-17T15:09:16.454+01:00  INFO 10604 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-17T15:09:16.481+01:00  INFO 10604 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-17T15:09:16.564+01:00  WARN 10604 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-17T15:09:16.630+01:00  INFO 10604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-17T15:09:16.824+01:00  INFO 10604 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48e939e6
+2023-01-17T15:09:16.825+01:00  INFO 10604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-17T15:09:16.852+01:00  INFO 10604 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-01-17T15:09:17.267+01:00  INFO 10604 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-17T15:09:17.273+01:00  INFO 10604 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-17T15:09:17.421+01:00  WARN 10604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-17T15:09:17.731+01:00  INFO 10604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-01-17T15:09:17.753+01:00  INFO 10604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ws'
+2023-01-17T15:09:17.759+01:00  INFO 10604 --- [restartedMain] c.e.demo.CoursSpringDataRestApplication  : Started CoursSpringDataRestApplication in 2.313 seconds (process running for 2.703)
+2023-01-17T15:14:46.415+01:00  INFO 10604 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-17T15:14:46.424+01:00  INFO 10604 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-17T15:14:46.430+01:00  INFO 10604 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-17T15:14:46.432+01:00  INFO 10604 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-17T15:14:46.436+01:00  INFO 10604 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
